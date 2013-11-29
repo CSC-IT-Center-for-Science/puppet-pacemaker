@@ -1,4 +1,4 @@
-class pacemaker::resource::ip($ip_address,
+define pacemaker::resource::ip($ip_address,
                               $cidr_netmask=32,
                               $nic='',
                               $group='',
